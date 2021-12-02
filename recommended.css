@@ -1,0 +1,148 @@
+:root {
+    --customRed: #dc143b;
+    --customPurple: #bb1585;
+    --customDark: #151515;
+}
+body {
+    font-family: Arial, sans-serif !important;
+    min-width: 0px;
+    margin-top: 0px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: #fff;
+    border-top-right-radius: 0px;
+    font-size: 15px;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.login-nav:hover {
+    color: var(--customPurple) !important;
+}
+.sign-up {
+    color: white !important;
+    border: 1px solid var(--customPurple) !important;
+}
+.sign-up:hover {
+    background-color: var(--customPurple) !important;
+}
+.div-block {
+    display: block;
+    width: 230px;
+    height: 425px;
+    margin-top: 73px;
+    padding-top: 0px;
+    border-style: solid;
+    border-width: 50px;
+    border-color: var(--customDark);
+    border-radius: 15px;
+    background-color: var(--customDark);
+    font-size: 15px;
+    line-height: 15px;
+}
+.div-block-2 {
+    display: block;
+    width: 230px;
+    height: 40px;
+    margin-top: -51px;
+    margin-right: 39px;
+    margin-left: -50px;
+    padding-left: 8px;
+    border-style: solid;
+    border-width: 40px;
+    border-color: var(--customPurple);
+    background-color: var(--customPurple);
+    border-radius: 15px 15px 0px 0px;
+}
+.image {
+    position: relative;
+    left: 45%;
+    top: 50%;
+    transform: translate(-45%, 0%);
+}
+.text-block {
+    color: #fff;
+    font-size: 25px;
+    overflow: visible;
+    line-height: 70px;
+    text-align: center;
+}
+.w-button {
+    text-decoration: none !important;
+    color: #fff;
+    margin-right: 2em;
+}
+.w-button:hover {
+    color: #fff;
+}
+.button {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: var(--customPurple);
+    margin-left: -2em;
+    transition: 0.4s;
+}
+.button-2 {
+    padding: 13px 10px;
+    border-radius: 5px;
+    background-color: var(--customPurple);
+    margin: -0.83em -0.5em;
+    position: absolute;
+    transition: 0.4s;
+}
+.button:hover,
+.button-2:hover {
+    background-color: var(--customPurple);
+    transition: 0.4s;
+}
+.gender{
+    margin-top: 50px;
+}
+.gender, .role {
+    margin-left: -40px;
+    font-family: Exo, sans-serif;
+    color: #fff;
+}
+.div-block-3 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--customPurple);
+    border-radius: 0px;
+    background-color: var(--customPurple);
+}
+.div-block-4 {
+    border: 1px none #000;
+    background-color: var(--customPurple);
+}
+.text-block-skills {
+    margin-left: -30px;
+    width: 140%;
+}
+.div-block-5 {
+    width: 80px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-left: -10px;
+    border: 1px solid var(--customPurple);
+    border-radius: 3px;
+    background-color: transparent;
+    background-clip: border-box;
+    margin-right: 20px;
+}
+.text-block-3 {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    color: #fff;
+}
+footer {
+    max-height: 100%;
+    padding: 30px 0;
+    margin-top: 40px;
+    color: #fff;
+    background-color: var(--customDark) !important;
+}

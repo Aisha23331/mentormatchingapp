@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Recommended profiles</title>
+   <link rel="stylesheet" type="text/css" href="css/recommended.css" />
+   <link rel="stylesheet" type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body onload="FormatPage(event)">
+
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #151515; height:4em">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+         aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" id="navbarToggleExternalContent"
+            data-target="#navbarToggleExternalContent"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <ul id="navbar" class="navbar-nav m-auto mt-2 mt-lg-0">
+            <li class="nav-item mr-2">
+               <a class="nav-link" hidden=true id="userInfo" style="margin-right: 15em"></a>
+            </li>
+            <li id="homepage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/index.html">Home </a>
+            </li>
+            <li hidden=true id="profilePage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/profile.html">Profile</a>
+            </li>
+            <li hidden=true id="connectionsPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/connections.html">Connections</a>
+            </li>
+            <li hidden=true id="recommendationsPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/recommendation.html">Recommendations</a>
+            </li>
+            <li hidden=true id="messagesPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/messages.html">Messages</a>
+            </li>
+         </ul>
+         <div hidden=true id="searchbarDiv" class="searchbar">
+            <input id="searchbar" type="text" name="searchbar" onkeydown='Search(event)' placeholder="Search for connections..">
+         </div>
+         <a href="login.html" class="mr-3 login-nav" style="color: white; cursor: pointer; text-decoration: none;">
+            Login
+         </a>
+         <a href="signup.html" class="btn sign-up my-sm-0">
+            Sign Up
+         </a>
+      </div>
+   </nav>
+   <div class="container">
+      <div id="miniProfilesList" class="row">
+      </div>
+   </div>
+   <footer>
+      Copyright &copy;2021 FDM
+   </footer>
+</body>
+<script src="js/client.js"></script>
+</body>
+
+</html>

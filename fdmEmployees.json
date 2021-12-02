@@ -1,0 +1,47 @@
+[
+    {
+        "email": "johnsmith@fdm.com",
+        "profile": {
+            "name": "john smith",
+            "role": "developer",
+            "sex": "male",
+            "age": 20
+        }
+    },
+    {
+        "email": "marybeth@fdm.com",
+        "profile": {
+            "name": "mary beth",
+            "role": "admin",
+            "sex": "female",
+            "age": 24
+        }
+    },
+    {
+        "email": "davidbrown@fdm.com",
+        "profile": {
+            "name": "david brown",
+            "role": "manager",
+            "sex": "male",
+            "age": 28
+        }
+    },
+    {
+        "email": "sarahlee@fdm.com",
+        "profile": {
+            "name": "sarah lee",
+            "role": "developer",
+            "sex": "female",
+            "age": 21
+        }
+    },
+    {
+        "email": "lisadon@fdm.com",
+        "profile": {
+            "name": "lisa dan",
+            "role": "testing",
+            "sex": "female",
+            "age": 35
+        }
+    }
+]

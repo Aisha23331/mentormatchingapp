@@ -1,0 +1,59 @@
+:root {
+  --customRed: #dc143b;
+  --customPurple: #bb1585;
+  --customDark: #151515;
+}
+body{
+  font-family: Arial, sans-serif !important;
+}
+.login-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #151515;
+  width: 20em;
+  height: 35em;
+  border-radius: 10px;
+}
+form {
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -60%);
+}
+form input {
+  margin-bottom: 1.5em;
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+form button {
+  background: var(--customPurple);
+  outline: none;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 8px;
+}
+form button {
+  border-radius: 15px;
+}
+strong {
+  top: 10%;
+  left: 50%;
+  font-size: 22px;
+  position: absolute;
+  transform: translate(-50%, -10%);
+}
+.sign-up {
+  color: white !important;
+  border: 1px solid var(--customPurple) !important;
+}
+.sign-up:hover {
+  background-color: var(--customPurple) !important;
+}

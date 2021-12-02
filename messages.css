@@ -1,0 +1,100 @@
+:root {
+    --customRed: #dc143b;
+    --customPurple: #bb1585;
+    --customDark: #151515;
+}
+body{
+    font-family: Arial, sans-serif !important;
+}
+footer {
+    max-height: 100%;
+    padding: 30px 0;
+    margin-top: 5em;
+    color: #fff;
+    background-color: var(--customDark) !important;
+}
+.login-nav:hover {
+    color: var(--customPurple) !important;
+}
+.sign-up {
+    color: white !important;
+    border: 1px solid var(--customPurple) !important;
+}
+.sign-up:hover {
+    background-color: var(--customPurple) !important;
+}
+.users-list{
+    overflow: scroll;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+.users{
+    border-radius: 10px;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    -webkit-box-shadow: 23px 20px 35px -18px rgba(0,0,0,0.53);
+    -moz-box-shadow: 23px 20px 35px -18px rgba(0,0,0,0.53);
+    box-shadow: 23px 20px 35px -18px rgba(0,0,0,0.53);
+}
+.users-img{
+    float: left;
+    padding: 5px;
+}
+.user-name{
+    height: 75px;
+    width: auto;
+    background-color: #f6f6f6;
+    -webkit-box-shadow: 0px 32px 68px -30px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 32px 68px -30px rgba(0,0,0,0.62);
+    box-shadow: 0px 32px 68px -30px rgba(0,0,0,0.62);
+}
+.message-block{
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.sender{
+    float: left;
+    width: auto;
+    border-radius:20px 20px 20px 20px;
+    padding: 5px 15px;
+    background-color: #d0d0d0;
+}
+.receiver{
+    float: right;
+    margin-right: 1em;
+    width: auto;
+    border-radius: 20px 20px 0 20px;
+    padding: 5px 15px;
+    background-color: var(--customPurple);
+}
+.message-form{
+    margin-top: 1em;
+    position: absolute;
+    margin-left: 75%;
+    transform: translate(-75%);
+}
+.message-box{
+    background-color: #d0d0d0;
+    border-radius: 25px;
+    width: 40vw;
+    padding: 10px;
+    outline: none;
+    border:  none;
+}
+.send-button{
+    outline: none;
+    margin-left: 1em;
+    border:  none;
+    padding: 10px 30px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: #f650c2;
+    transition:  0.3s ease-in-out;
+}
+.send-button:hover{
+    background-color: var(--customPurple);
+}

@@ -1,0 +1,82 @@
+<html>
+<head lang = "eng">
+   <meta charset="utf-8">
+   <title>Home page</title>
+   <link rel="stylesheet" type="text/css" href="css/index.css"/>
+   <link
+           rel="stylesheet"
+           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+           crossorigin="anonymous"
+   />
+</head>
+<body onload="FormatPage(event)">
+   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #151515;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon" id="navbarToggleExternalContent"
+               data-target="#navbarToggleExternalContent"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+         <ul id="navbar" class="navbar-nav m-auto mt-2 mt-lg-0">
+            <li class="nav-item mr-2">
+               <a class="nav-link" hidden=true id="userInfo" style="margin-right: 15em"></a>
+            </li>
+            <li id="homepage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/index.html">Home </a>
+            </li>
+            <li hidden=true id="profilePage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/profile.html">Profile</a>
+            </li>
+            <li hidden=true id="connectionsPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/connections.html">Connections</a>
+            </li>
+            <li hidden=true id="recommendationsPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/recommendation.html">Recommendations</a>
+            </li>
+            <li hidden=true id="messagesPage" class="nav-item mr-2">
+               <a class="nav-link" href="/html/messages.html">Messages</a>
+            </li>
+         </ul>
+         <div hidden=true id="searchbarDiv" class="searchbar">
+            <input id="searchbar" type="text" name="searchbar" onkeydown='Search(event)' placeholder="Search for connections..">
+         </div>
+         <a href="/html/login.html" class="mr-3 login-nav" style="color: white; cursor: pointer; text-decoration: none;">
+            Login
+         </a>
+         <a href="/html/signup.html" class="btn sign-up my-sm-0">
+            Sign Up
+         </a>
+      </div>
+   </nav>
+
+   <section>
+      <h1>Sign up to connect with people at FDM and make a difference.</h1>
+      <img alt="" src="img/mentorimage.png">
+   </section>
+   <article>
+      <h3> Our website</h3>
+      <p>
+         Our intelligent system matches you with someone who will be the perfect mentor for you based on the skills you are looking to develop.
+         The website allows you to not only find recommendaions of people you can connect to but it also allows you to search for people.
+         Whether you are a mentor looking to gain leadership skills or a mentee looking to develop your skills and knowledge at work, the FDM mentor app is the webiste for you!!
+      </p>
+   </article>
+   <aside>
+      <h3> Our Vision</h3>
+      <p>
+         The problem that the software will solve is helping people learn new skills by allowing them to choose their own mentor in any field they are interested in,
+         who can provide them with training and guidance. The app will be designed for one to one mentoring where internal staff and consultants can sign up to be a mentee
+         and request for any mentor of their choice. The purpose of the system is to allow FDM employees who are starting out their career to be guided by someone who already
+         understands the inner workings of the company
+      </p>
+   </aside>
+   <footer style="background-color:#151515;">
+      Copyright &copy;2021 FDM
+   </footer>
+</body>
+
+<script src="js/client.js"></script>
+</html>
+
